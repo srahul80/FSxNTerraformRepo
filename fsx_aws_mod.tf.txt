@@ -1,0 +1,8 @@
+resource "aws_fsx_ontap_file_system" "fsxnetapp" {
+  storage_capacity    = 1024
+  subnet_ids          = [var.primarysub, var.secondsub]
+  deployment_type     = "MULTI_AZ_1"
+  throughput_capacity = 128
+  preferred_subnet_id = var.pirmarysub
+  arn                 = "demofsxn"
+}

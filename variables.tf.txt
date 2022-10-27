@@ -1,0 +1,16 @@
+variable "token" {
+}
+variable “primarysub" {
+}
+variable “secondsub" {
+}
+variable "security_group" {
+}
+variable "region" {
+}
+variable "accountid” {
+}
+variable “workspace” {
+}
+
+
